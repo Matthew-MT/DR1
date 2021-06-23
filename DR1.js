@@ -306,69 +306,6 @@ bot.login('Token-not-found');
  * 
  * http://jsben.ch/
  * 
- * ====================================================DOCUMENTATION=====================================================
- * 
- * ------------------------------------------------------VARIABLES-------------------------------------------------------
- * 
- * servSpecific[]
- * Maintains all server-specific settings and data. Structure can be found in initServ()
- * 
- * commands[]
- * Holds the name of each command. The index of each command name corresponds to the index of its binary data counterpart.
- * 
- * commandPre
- * Holds the prefix to look for when searching for a command in a message. Changable without needing anything else to be changed.
- * 
- * letters[]
- * Alphabetic characters. Useful for word-detection scripts.
- * 
- * 
- * 
- * ------------------------------------------------------FUNCTIONS-------------------------------------------------------
- * 
- * getF_L(x, y)
- * Returns the first x letters of string y.
- * 
- * getL_L(x, y)
- * Returns the last x letters of string y.
- * 
- * getE_F_L(x, y)
- * Returns all letters of string y excluding the last x letters.
- * 
- * getE_L_L(x, y)
- * Returns all letters of string y excluding the first x letters.
- * 
- * getStr(s, e, y)
- * Returns a section of string y starting at s inclusive and ending at e exclusive.
- * 
- * getOnlyLetters_C(y)
- * Returns only the alphabet letters of string y, ending at the first non-letter character.
- * 
- * getOnlyLetters_A(y)
- * Returns only the alphabet letters of string y, continuing through the entire string.
- * 
- * getCommandRoles(c, g)
- * Returns an array of the roles that can use c command on g guild.
- * 
- * checkRoles(m, g, c)
- * Returns a boolean value, true if the user m on guild g can use command c, false otherwise.
- * 
- * getCommand(y, x)
- * Finds and runs command in string y, using x as the messenger to determine response.
- * 
- * runCommand(n, x, y)
- * Runs the binary command data stored in commandData[] at index n,
- * with x as the messenger (see above) and y is the non-static contents of the command.
- * 
- * checkWord(y)
- * Returns true or false, true only if the input string y is contained in the badWords[] array.
- * 
- * checkForBadness(y)
- * Returns true or false, goes through all sub-strings of string y,
- * determining whether any of them contain a word stored in array badWords[] in which case it returns true.
- * 
- * 
- * 
  * ======================================================EXTRA INFO======================================================
  * 
  * ---------------------------------------------------ADD TO A SERVER----------------------------------------------------

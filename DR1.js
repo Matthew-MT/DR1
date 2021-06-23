@@ -290,7 +290,7 @@ bot.on("error", (error) => {
 
 console.log("Methods initialized.");
 
-bot.login('Mzc1NzMwNjEzNDM4NjQ0MjI2.D2Huhw.dx6IE6uE2kM8jmyFcUvGangpemE');
+
 
 
 

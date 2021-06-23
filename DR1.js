@@ -290,7 +290,7 @@ bot.on("error", (error) => {
 
 console.log("Methods initialized.");
 
-
+bot.login('Token-not-found');
 
 
 
